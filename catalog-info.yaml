@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: microservice-customer-bank
+  description: Servicio que guarda las cuentas de un customer
+  annotations:
+    github.com/project-slug: pe-ke10/microservice-customer-bank
+spec:
+  type: service
+  lifecycle: experimental
+  owner: elegibility-team
